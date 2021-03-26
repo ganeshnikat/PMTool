@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  #servlet:
+   # context-path: /pmtool
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+  datasource:
+    url: jdbc:h2:mem:pmtooldb
+    driver-class-name: org.h2.Driver
+    username: pmtool
+    password: pmtool

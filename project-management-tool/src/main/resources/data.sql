@@ -1,0 +1,1 @@
+insert into project (id, date_created, date_updated, description, end_date, project_identifier, project_name, start_date) values (null, TO_CHAR(SYSDATE, 'yyyy-MM-dd HH:mm:ss') , null, 'Sample Project', TO_CHAR(SYSDATE+5, 'yyyy-MM-dd HH:mm:ss'), 'UPSRMS01','UPS', TO_CHAR(SYSDATE, 'yyyy-MM-dd HH:mm:ss'))
